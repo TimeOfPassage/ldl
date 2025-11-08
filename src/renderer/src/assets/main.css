@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.drag {
+  cursor: move;
+  -webkit-app-region: drag;
+}
+
+​ .no-drag {
+  -webkit-app-region: no-drag;
+}
